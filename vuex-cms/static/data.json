@@ -1,0 +1,85 @@
+[{
+    "title": "组织权限管理",
+    "id": "1",
+    "level":1,
+    "pickitem": [{
+        "title": "员工账号管理",
+        "type": "account",
+        "level":2
+      },
+      {
+        "title": "配置业务字典",
+        "type": "business",
+        "level":2
+      },
+      {
+        "title": "应用功能管理",
+        "type": "app",
+        "level":2
+      },
+      {
+        "title": "菜单管理",
+        "type": "tree",
+        "level":2
+      },
+      {
+        "title": "用户管理",
+        "type": "user",
+        "level":2
+      }
+    ],
+    "type":"group_admin"
+  },
+  {
+    "title": "我的工作",
+    "id": "2",
+    "level":1,
+    "pickitem": [
+      {
+        "title": "我的申请",
+        "type": "mine",
+        "level":2
+      },
+      {
+        "title": "任务一",
+        "type": "one",
+        "level":2
+      },
+      {
+        "title": "任务二",
+        "type": "two",
+        "level":2
+      },
+      {
+        "title": "任务三",
+        "type": "three",
+        "level":2
+      }
+    ],
+    "type":"my_work"
+  },
+  {
+    "title": "客户管理",
+    "id": "3",
+    "level":1,
+    "pickitem": [{
+      "title": "身份证验证",
+      "type": "code",
+      "level":2
+    }],
+    "type":"custom_admin"
+  },
+  {
+    "title": "其他",
+    "id":"4",
+    "level":1,
+    "pickitem": [{
+      "title": "审批一",
+      "type": "audit",
+      "level":2
+    }],
+    "type":"other"
+  }
+]
+
+
